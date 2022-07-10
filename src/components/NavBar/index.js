@@ -1,3 +1,5 @@
+import "./navBar.css";
+
 import React from "react"
 
 export const NavBar = () => {
@@ -12,7 +14,7 @@ export const NavBar = () => {
                         <a clasName="nav__link" href="#">Tienda</a>
                     </li>
                     <li>
-                        <a clasName="nav__link" href="#">Obras</a>
+                        <a clasName="nav__link" href="#">Galeria</a>
                     </li>
                     <li>
                         <a clasName="nav__link" href="#">Sobre mí</a>
