@@ -3,7 +3,9 @@ import "./title.css";
 
 export const Title = ({ greeting }) => {
     return (
-        <h1>{greeting}</h1>
+        <div className="container">
+            <h1>{greeting}</h1>
+        </div>
     );
 }
 
