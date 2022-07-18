@@ -9,7 +9,7 @@
 .aumentarReducir{
     height: 25px;
     width: 25px;
-    background-color:antiquewhite;
+    background-color:rgb(249, 240, 229);
     border-radius: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -22,5 +22,5 @@
     border-radius: 5px;
     font-size: 13px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:antiquewhite;
+    background-color:rgb(250, 240, 226);
 }
