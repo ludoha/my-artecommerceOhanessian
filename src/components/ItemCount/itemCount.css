@@ -1,0 +1,26 @@
+.counter {
+    width: fit-content;
+    background-color: #f88c8c8f;
+    border-radius: 10%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+.aumentarReducir{
+    height: 25px;
+    width: 25px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.agregarCarrito{
+    height: 25px;
+    width: 125px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:antiquewhite;
+}
