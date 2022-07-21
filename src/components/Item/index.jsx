@@ -8,6 +8,7 @@ const Item = ({info}) => {
             <img src={info.image} />
             <h2>{info.title} </h2>
             <p>{info.tecnica} </p>
+            <p>{info.precio} </p>
          </a>
    );
 }
