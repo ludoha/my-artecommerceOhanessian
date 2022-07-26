@@ -5,7 +5,7 @@ import CartWidget from "../CartWidget";
 
 export const NavBar = () => {
     return (
-        <div className="container">
+        <div className="container__nav">
             <nav className="nav">
                 <main className="main__marca">
                     <a className="nav__linkMarca" href="#">Ludmila Ohanessian Artista Plastica</a>
