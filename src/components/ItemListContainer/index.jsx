@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import Title from '../Title';
-import ItemCount from '../ItemCount';
 import ItemList from '../ItemList';
 import { useParams } from 'react-router-dom';
+import './itemListContainer.css';
 
 const productos = [
     { id: 1, image: "https://arteludmilaohanessian.com/img/atardecerconveleros.jpg",  category: 'Pinturas', title: "Atardecer", tecnica:"Tecnica: Acrílico profesional", precio: "$120000"},
@@ -32,14 +32,12 @@ export const ItemListContainer = ({ texto }) => {
         }
     }, [categoriaId])
     
-    const onAdd = (quantify) => {
-    console.log(`Compraste ${quantify} unidades`);
-    }
     return (
         <>
-        <Title greeting={texto} />
-        <ItemCount initial={1} stock={5} onAdd={onAdd} />
-        <ItemList data={data}/>
+        <Title greeting={texto} className="titulo" />
+        <div className="containerPrueba">
+        <ItemList data={data} className="obras" />
+        </div>
         </>
     );
 }

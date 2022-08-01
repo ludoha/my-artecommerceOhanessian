@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-
 import ItemDetail from '../ItemDetail';
 import { useParams } from 'react-router-dom';
+import './itemDetailContainer.css';
 
 const productos = [
     { id: 1, image: "https://arteludmilaohanessian.com/img/atardecerconveleros.jpg",  category: 'Pinturas', title: "Atardecer", tecnica:"Tecnica: Acrílico profesional", precio: "$120000"},
