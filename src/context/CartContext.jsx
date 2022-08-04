@@ -10,19 +10,21 @@ const CartProvider = ({ children }) => {
 
     const addProduct = (item, quantity) => {
         if (isInCart(item.id)) {
-            setCart(cart.map(productos => {
-                return productos.id === item.id ? { ...productos, quantity: productos.quantity + quantity } : productos
+            setCart(cart.map(product => {
+                return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product
             }));
         } else {
             setCart([...cart, { ...item, quantity }]);
         }
     }
+    console.log('carrito: ', cart);
+
 
     const clearCart = () => setCart([]);
 
-    const isInCart = (id) => cart.find(productos => productos.id === id) ? true : false;
+    const isInCart = (id) => cart.find(product => product.id === id) ? true : false;
 
-    const removeProduct = (id) => setCart(cart.filter(productos => productos.id !== id));
+    const removeProduct = (id) => setCart(cart.filter(product => product.id !== id));
 
     return (
         <CartContext.Provider value={{
