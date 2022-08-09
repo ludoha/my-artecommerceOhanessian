@@ -21,7 +21,7 @@ export const ItemDetail = ({ data }) => {
                 <div className="content">
                     <h1>{data.title}</h1>
                     <h2>{data.tecnica}</h2>
-                    <h2>{data.precio}</h2>
+                    <h2>${data.precio}</h2>
                     {
                         goToCart
                             ? <Link to='/cart' className="btn_comprar">Terminar la compra!</Link>
