@@ -52,4 +52,9 @@
 .carritoVacioLink {
     color: rgb(189, 75, 104);
 }
+.carritoVacioLink:hover{
+    color: rgb(204, 13, 61);
+    border: 2px dashed rgb(204, 13, 61);
+    padding: 12px;
+}
 
