@@ -10,8 +10,8 @@ const Item = ({ info }) => {
             <div className="Contenedor_productos">
                <img src={info.image} />
                <h2>{info.title} </h2>
-               <p>{info.tecnica} </p>
-               <p>${info.precio} </p>
+               <p>{info.category} </p>
+               <p>${info.price} </p>
             </div>
          </Link>
    );
