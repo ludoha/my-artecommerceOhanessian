@@ -14,19 +14,20 @@
 }
 
 .detail {
-    text-align: center;
-    margin-left: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .detail_image{
-    width: 50%;
+    width: 40%;
+    height: 500px;
     object-fit: contain;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 .content{

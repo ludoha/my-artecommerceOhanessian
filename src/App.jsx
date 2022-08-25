@@ -8,6 +8,8 @@ import NavBar from "./components/NavBar";
 import ItemDetailContainer from './components/ItemDetailContainer';
 import ItemListContainer from './components/ItemListContainer';
 import CartProvider from './context/CartContext';
+import ContactForm from './components/ContactForm/contactForm';
+import SobreMi from './components/SobreMi/sobreMi';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
           <Route path='/' element={<ItemListContainer texto='Bienvenidos a mi tienda!' />} />
           <Route path='/category/:categoriaId' element={<ItemListContainer />} />
           <Route path='/cart' element={<Cart />} /> 
+          <Route path='/sobreMi' element={<SobreMi />} />
+          <Route path='/contactForm' element={<ContactForm />} />
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} /> 
         </Routes>
         </CartProvider>

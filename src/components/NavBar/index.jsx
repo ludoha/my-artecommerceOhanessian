@@ -19,15 +19,23 @@ export const NavBar = () => {
                         <NavLink className="nav__link" to='/category/Dibujo'>Dibujos</NavLink>
                     </li>
                     <li>
-                        <NavLink className="nav__link" to="#">Sobre mí</NavLink>
+                        <NavLink className="nav__link" to="/SobreMi">Sobre mí</NavLink>
                     </li>
                     <li>
-                        <NavLink className="nav__link" to="#">Contacto</NavLink>
+                        <NavLink className="nav__link" to="/ContactForm">Contacto</NavLink>
                     </li>
                     <li>
                         <NavLink className="nav__link" to="/cart">
                             <CartWidget />
                         </NavLink>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ludmilaohanessian/">
+                        <i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/LudmilaOhanessian/">
+                        <i class="bi bi-facebook"></i></a>
                     </li>
                 </ul>
             </nav>

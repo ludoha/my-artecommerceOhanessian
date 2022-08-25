@@ -11,6 +11,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 nav{
+    height: 90px;
     background-color: rgba(250, 163, 163, 0.562);
     float:center;
     padding-bottom: 5px;
@@ -20,10 +21,13 @@ nav{
     text-decoration: overline underline rgb(7, 7, 7);
     font-size: 30px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 14px;
+    margin-bottom: 16px;
     padding-top: 10px;
     letter-spacing: 5px;
+}
+.nav__barlist{
+    margin-top: 15px;
 }
 nav ul{
     text-align: center;
