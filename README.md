@@ -27,13 +27,11 @@ Ludmila Ohanessian Rau
 
 *Pinturas, acuarelas y dibujos muestran los productos segun su categoria:*
 
-    ``` 
-    <NavLink className="nav__link" to='/category/Pintura'>Pinturas</NavLink>
+    `<NavLink className="nav__link" to='/category/Pintura'>Pinturas</NavLink>
 
     <NavLink className="nav__link" to='/category/Acuarela'>Acuarelas</NavLink>
 
-    <NavLink className="nav__link" to='/category/Dibujo'>Dibujos</NavLink>
-    ```
+    <NavLink className="nav__link" to='/category/Dibujo'>Dibujos</NavLink>`
 
 
 *Detalle del producto:*
