@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Proyecto Final React Js
+Ludmila Ohanessian Rau 
 
-In the project directory, you can run:
 
-### `npm start`
+*Cumpliendo con todo los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte.*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Rutas del NavBar con las siguientes categorias:*
+-Ludmila Ohanessian Artista Plastica (con ruta al index)
+-Sección:
+-Pinturas
+-Acuarelas
+-Dibujos
+-Sobre mí
+-Contacto 
+-Icons de https://icons.getbootstrap.com/ con links a redes sociales 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Base de datos en Firebase/Firestore*
+-Con Items de los productos
+-Url de imagenes cargadas en Amazon SE 
+-FormCompra: con datos y Order con item de la compra y total a pagar
+-ContactForm de consultas o pedidos
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Pinturas, acuarelas y dibujos muestran los productos segun su categoria:*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ``` 
+    <NavLink className="nav__link" to='/category/Pintura'>Pinturas</NavLink>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    <NavLink className="nav__link" to='/category/Acuarela'>Acuarelas</NavLink>
 
-### `npm run eject`
+    <NavLink className="nav__link" to='/category/Dibujo'>Dibujos</NavLink>
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*Detalle del producto:*
+Con titulo, imagen, descripcion, categoria, precio y más detalles (si lo requiere).
+Botón para agregar al carrito y Link al carrito para terminar compra.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*Carrito con contador:*
+-Muestra los productos elegidos
+-Eliminarlos
+-Ver el monto total a pagar
+-Formulario para completar la compra con envio de order de compra a base de datos
+-Numero de pedido con la ID de firebase
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -16,6 +16,9 @@ export const NavBar = () => {
                         <NavLink className="nav__link" to='/category/Pintura'>Pinturas</NavLink>
                     </li>
                     <li>
+                        <NavLink className="nav__link" to='/category/Acuarela'>Acuarelas</NavLink>
+                    </li>
+                    <li>
                         <NavLink className="nav__link" to='/category/Dibujo'>Dibujos</NavLink>
                     </li>
                     <li>
@@ -31,11 +34,12 @@ export const NavBar = () => {
                     </li>
                     <li>
                         <a href="https://www.instagram.com/ludmilaohanessian/">
-                        <i class="bi bi-instagram"></i></a>
+                        <i className="bi bi-instagram"></i></a>
                     </li>
                     <li>
+                        
                         <a href="https://www.facebook.com/LudmilaOhanessian/">
-                        <i class="bi bi-facebook"></i></a>
+                        <i className="bi bi-facebook"></i></a>
                     </li>
                 </ul>
             </nav>

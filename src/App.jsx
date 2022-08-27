@@ -19,7 +19,7 @@ function App() {
         <CartProvider>
         <NavBar />
           <Routes>
-          <Route path='/' element={<ItemListContainer texto='Bienvenidos a mi tienda!' />} />
+          <Route path='/' element={<ItemListContainer />} />
           <Route path='/category/:categoriaId' element={<ItemListContainer />} />
           <Route path='/cart' element={<Cart />} /> 
           <Route path='/sobreMi' element={<SobreMi />} />

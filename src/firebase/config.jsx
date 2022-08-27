@@ -7,13 +7,13 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCWN4jaRyKMi4PC1moUpsOwCFAeUyqFR9g",
-  authDomain: "arte-ecommerce.firebaseapp.com",
-  projectId: "arte-ecommerce",
-  storageBucket: "arte-ecommerce.appspot.com",
-  messagingSenderId: "461195033315",
-  appId: "1:461195033315:web:608d252320b5d43e0423d6",
-  measurementId: "G-EDV6K6GS9L"
+    apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+    authDomain: "arte-ecommerce.firebaseapp.com",
+    projectId: process.env.REACT_APP_FIREBASE_PROYECT_ID,
+    storageBucket: "arte-ecommerce.appspot.com",
+    messagingSenderId: "461195033315",
+    appId: "1:461195033315:web:608d252320b5d43e0423d6",
+    measurementId: "G-EDV6K6GS9L"
 };
 
 // Initialize Firebase

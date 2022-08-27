@@ -21,9 +21,11 @@ export const ItemDetail = ({ data }) => {
                 <div className="content">
                     <h1>{data.title}</h1>
                     <h2>{data.category}</h2>
-                    <h2>Técnica: {data.description}</h2>
+                    <h3>Técnica: {data.description}</h3>
+                    <h3>{data.detail}</h3>
+                    <h3>Medida: {data.size}</h3>
                     <br></br>
-                    <h2>${data.price}</h2>
+                    <h2 className="separacionPrice">${data.price}</h2>
                     {
                         goToCart
                             ? <Link to='/cart' className="btn_comprar">Terminar la compra!</Link>
