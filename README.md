@@ -1,10 +1,11 @@
 
 
-##Proyecto Final React Js
-Ludmila Ohanessian Rau 
+##royecto Final React Js
+##Ludmila Ohanessian Rau 
 
 
-**Cumpliendo con todo los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte. Para la venta de dibujos, pinturas y otras piezas que incluiré**
+**Cumpliendo con todo los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte. Para la venta de dibujos, pinturas y otras piezas que incluiré más adelante**
+
 
 
 *Rutas del NavBar con las categorias de los distintos tipos de obras de arte
