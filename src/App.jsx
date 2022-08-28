@@ -10,6 +10,7 @@ import ItemListContainer from './components/ItemListContainer';
 import CartProvider from './context/CartContext';
 import ContactForm from './components/ContactForm/contactForm';
 import SobreMi from './components/SobreMi/sobreMi';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/contactForm' element={<ContactForm />} />
           <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} /> 
         </Routes>
+        <Footer />
         </CartProvider>
       </BrowserRouter>
     </>

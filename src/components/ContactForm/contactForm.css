@@ -60,3 +60,33 @@ cursor: pointer;
     margin-top: 15px;
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 576px){
+    .ContactForm{
+        max-width: 200px;
+        font-size: 11px;
+        margin: 2rem;
+    }
+    .datosContacto{
+        max-width: 300px;
+        font-size: 12px;
+        margin: 2rem;
+        line-height: 15px;
+    }
+    .inputForm{
+        width: 300px;
+        height: 25px;
+    }
+    .labelForm{
+        max-width: 100px;
+        margin: 0px;
+    }
+    .enviado{
+        margin: 2rem;
+        font-size: 15px;
+    }
+    .consulta{
+        margin: 2rem auto;
+        max-width: 300px;
+        font-size: 15px;
+    }
+}

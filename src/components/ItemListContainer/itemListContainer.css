@@ -6,26 +6,38 @@
 
 .containerPrueba {
 	display: flex;
-	grid-template-columns: repeat(auto-fill, minmax(500px, 3fr));
-	gap: 2rem;
-	justify-content: center;
-    align-items: center;
-	padding: 30px;
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding-top: 15px;
+    padding-bottom: 35px;
+	align-items: flex-start;
+	align-content: flex-end;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Luczida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
 }
 
 .productos {
 	display: block;
 	width: 100%;
 	text-align: center;
+	justify-content: space-around;
+	align-items: flex-end;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 	"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	padding: 10px;
-	box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 6px 3px 4px rgba(0, 0, 0, 0.39);
 	background-color: rgba(250, 235, 215, 0.774);
 	color: black;
 }
-
+.productos:hover{
+    transform: scale(1.1);
+}
 
 .titulo {
     text-align: center;
+}
+@media only screen and (max-width: 576px){
+	.containerPrueba{
+        max-width: 100px;
+	}
 }
