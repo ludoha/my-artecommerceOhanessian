@@ -8,7 +8,7 @@
 
 #### Aquí dejo el link de la tienda en el servidor Hostinger:
 
-[Arte Ludmila Ohanessian](https://pages.github.com/).
+[Arte Ludmila Ohanessian](https://arteludmilaohanessian.com/).
 
 
 
@@ -17,10 +17,10 @@
 - Icons de https://icons.getbootstrap.com/ con links a redes sociales 
 
 
-* Base de datos en Firebase/Firestore*
-* Con Items de los productos
-* Url de imagenes cargadas en Amazon SE 
-* FormCompra: con datos y Order con item de la compra y total a pagar
+#### Base de datos en Firebase/Firestore:
+* Items de los productos
+* Url de imagenes cargadas en: Amazon SE 
+* FormCompra: con datos, Order con items de la compra y total a pagar
 * ContactForm de consultas o pedidos
 
 
@@ -35,6 +35,7 @@ Botón para agregar al carrito y Link al carrito para terminar compra.
 * Ver el monto total a pagar
 * Formulario para completar la compra con envio de order de compra a base de datos
 * Numero de pedido con la ID de firebase
+
 
 
 
