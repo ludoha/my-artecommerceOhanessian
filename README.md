@@ -1,12 +1,12 @@
 
 
 
-## Proyecto Final React Js
-## Ludmila Ohanessian Rau :woman_artist:
-## Comisión: 37955
+### Proyecto Final React Js
+### Ludmila Ohanessian Rau :woman_artist:
+### Comisión: 37955
 
 
-### Cumpliendo con todos los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte. Para la venta de dibujos, pinturas y otras piezas que incluiré más adelante.
+#### Cumpliendo con todos los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte. Para la venta de dibujos, pinturas y otras piezas que incluiré más adelante.
 
 
 ## Aquí dejo el link de la tienda en el servidor Hostinger:
