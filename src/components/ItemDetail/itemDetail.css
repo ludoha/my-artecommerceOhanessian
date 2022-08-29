@@ -58,24 +58,24 @@
 }
 @media only screen and (max-width: 576px){
     .container__detail{
-        display: grid;
-        padding-left: 25px;
-        margin-bottom: 30rem;
+        display:inline-block;
+        padding-left: 32px;
+        margin-bottom: 14rem;
         padding-bottom: 0px;
     }
     .detail {
-        width: 500px;
-        margin-top: 0.5rem;
+        width: 330px;
         padding: 0rem;
         font-size: 10px;
     }
     .detail_image{
-        width: 80%;
+        width: 100%;
         height: 50vh;
         margin: 0px;
+        padding: 0px;
     }
     .content{
-        max-width: 100px;
+        max-width: 170px;
         margin-left: 20px;
         line-height: 16px;
         font-size: 10px;
