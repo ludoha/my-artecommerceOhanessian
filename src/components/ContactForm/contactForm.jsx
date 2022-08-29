@@ -66,7 +66,7 @@ const ContactForm = () => {
             <ul className='datosContacto'>
                 <li className='liCont'><i class="bi bi-telephone-fill"></i>
                 <h3>+54 9 11 5745-1254</h3></li>
-                <li className='liCont'><i class="bi bi-envelope-heart"></i>
+                <li className='liCont'><i class="bi bi-envelope-fill"></i>
                 <h3><a href="mailto:ludmilaoha.arte@gmail.com">ludmilaoha.arte@gmail.com</a></h3></li>
                 <li className='liCont'><i class="bi bi-geo-alt-fill"></i>
                 <h3>Buenos Aires, Argentina.</h3></li>

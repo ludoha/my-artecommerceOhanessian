@@ -96,3 +96,40 @@ cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 25px;
 }
+@media only screen and (max-width: 576px){
+    .itemCart {
+        max-width: 300px;
+        margin: 3rem auto;
+        border-bottom: 1px solid black;
+        line-height: 20px;
+    }
+    .textoProduct {
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .itemCart img {
+        width: 150px;
+    }
+    .textoPrecioCart {
+    max-width: 300px;
+    }    
+    .formularioCompra{
+        max-width: 300px;
+        margin: 30px;
+        line-height: 25px;
+        padding: 5px;
+        padding-bottom: 25px;
+    }
+    .labelForm{
+        margin-top: 10px;
+    
+    }
+    .inputCart{
+        width: 300px;
+    }
+    .carritoVacio{
+        max-width: 300px;
+        font-size: 15px;
+        margin-bottom: 13rem;
+    }
+}

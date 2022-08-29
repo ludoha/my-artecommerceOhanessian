@@ -62,7 +62,7 @@ cursor: pointer;
 }
 @media only screen and (max-width: 576px){
     .ContactForm{
-        max-width: 200px;
+        max-width: 300px;
         font-size: 11px;
         margin: 2rem;
     }
@@ -71,6 +71,7 @@ cursor: pointer;
         font-size: 12px;
         margin: 2rem;
         line-height: 15px;
+        padding-left: 25px;
     }
     .inputForm{
         width: 300px;
@@ -88,5 +89,8 @@ cursor: pointer;
         margin: 2rem auto;
         max-width: 300px;
         font-size: 15px;
+    }
+    .liCont{
+        margin-bottom: 30px;
     }
 }

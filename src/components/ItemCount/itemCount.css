@@ -24,3 +24,18 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:rgb(250, 240, 226);
 }
+@media only screen and (max-width: 576px){
+    .counter {
+        width: 127px;
+        text-align: center;
+        padding: 6px;
+    }
+    .aumentarReducir{
+        height: 25px;
+        width: 25px;
+    }
+    .agregarCarrito{
+        height: 34px;
+        width: 116px;
+    }
+}

@@ -36,8 +36,19 @@
 .titulo {
     text-align: center;
 }
+
 @media only screen and (max-width: 576px){
 	.containerPrueba{
-        max-width: 100px;
+		display: grid;
+		justify-content: center;
+		padding-left: 13rem;
+		text-align: center;
+	}
+	.productos {
+		width: 450px;
+		line-height: 20px;
+	}
+	.productos:hover{
+		transform: scale(1.1);
 	}
 }
