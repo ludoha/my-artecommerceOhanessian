@@ -1,20 +1,20 @@
 
 
 
-# Proyecto Final React Js
-# Ludmila Ohanessian Rau :woman_artist:
-# Comisión: 37955
+## Proyecto Final React Js
+## Ludmila Ohanessian Rau :woman_artist:
+## Comisión: 37955
 
 
 ### Cumpliendo con todos los distintos desafíos llevados a cabo en el transcurso del curso realice este E-commerce de la tienda de mi propia marca de arte. Para la venta de dibujos, pinturas y otras piezas que incluiré más adelante.
 
 
-#### Aquí dejo el link de la tienda en el servidor Hostinger:
+## Aquí dejo el link de la tienda en el servidor Hostinger:
 
 [Arte Ludmila Ohanessian](https://arteludmilaohanessian.com/).
 
 
-#### Organización de mi página:
+## Organización de mi página:
 * NavBar con Routes a las categorías de los distintos tipos de obras
 * Categorías: Pinturas, acuarelas y Dibujos
 - Ludmila Ohanessian Artista Plástica (con ruta al inicio)
