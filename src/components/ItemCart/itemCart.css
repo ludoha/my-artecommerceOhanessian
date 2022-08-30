@@ -108,13 +108,14 @@ cursor: pointer;
         font-size: 13px;
     }
     .itemCart .imgCart{
-        width: 120px;
+        width: 100px;
         text-align: center;
-        margin: 0px;
-        padding: 0px;
     }
     .imgCart{
         object-fit: contain;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0px;
     }
     .textoPrecioCart {
     max-width: 300px;
