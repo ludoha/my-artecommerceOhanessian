@@ -47,7 +47,7 @@ li a:hover{
 }
 @media only screen and (max-width: 576px) {
     nav{
-        height: 91px;
+        height: 94px;
         width: 100%;
         padding-bottom: 5px;
     }

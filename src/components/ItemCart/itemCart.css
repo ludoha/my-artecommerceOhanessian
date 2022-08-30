@@ -100,7 +100,6 @@ cursor: pointer;
 @media only screen and (max-width: 576px){
     .itemCart {
         max-width: 300px;
-        margin: 3rem auto;
         border-bottom: 1px solid black;
         line-height: 20px;
     }
@@ -110,6 +109,9 @@ cursor: pointer;
     }
     .itemCart .imgCart{
         width: 120px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
     }
     .imgCart{
         object-fit: contain;
