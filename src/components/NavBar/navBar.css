@@ -47,13 +47,13 @@ li a:hover{
 }
 @media only screen and (max-width: 576px) {
     nav{
-        height: 94px;
+        height: 150px;
         width: 100%;
         padding-bottom: 5px;
     }
     .nav__linkMarca{
-        font-size: 15px;
-        letter-spacing: 2px;      
+        font-size: 28px;
+        letter-spacing: 2px;   
     }
     .nav__barlist{
         font-size: 12px;
@@ -61,7 +61,7 @@ li a:hover{
     }
     li{
         margin-left: 0px;
-        margin-top: 2px;
+        margin-top: 4px;
         margin-bottom: 10px;
         
     }
