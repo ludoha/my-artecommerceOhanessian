@@ -4,10 +4,13 @@ import Title from '../Title';
 import ItemList from '../ItemList';
 import { useParams } from 'react-router-dom';
 import './itemListContainer.css';
+import { TabTitle } from '../../GeneralFuntions/Generalfuntions';
 
 
 
 export const ItemListContainer = ({ texto }) => {
+    TabTitle('Arte Ludmila Ohanessian');
+    
     const  [data, setData] = useState([]);
 
     const { categoriaId } = useParams();

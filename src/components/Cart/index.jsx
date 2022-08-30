@@ -4,8 +4,11 @@ import { useCartContext } from "../../context/CartContext";
 import ItemCart from "../ItemCart";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import '../ItemCart/itemCart.css';
+import { TabTitle } from "../../GeneralFuntions/Generalfuntions";
 
 const Cart = () => {
+    TabTitle('Tu carrito');
+
     const { cart, totalPrice } = useCartContext();
     
 

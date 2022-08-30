@@ -1,8 +1,11 @@
 import React from 'react';
+import { TabTitle } from '../../GeneralFuntions/Generalfuntions';
 import './sobreMi.css';
 
 
 const SobreMi = () => {
+TabTitle('Sobre mí');
+
     return (
         <div className="sobreMi">
             <div className="sobre">

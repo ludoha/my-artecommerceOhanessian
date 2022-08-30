@@ -3,8 +3,10 @@ import React from 'react';
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { useState } from "react";
 import './contactForm.css';
+import { TabTitle } from '../../GeneralFuntions/Generalfuntions';
 
 const ContactForm = () => {
+    TabTitle('Contactate');
 
     const [ form, setForm ] = useState({
         name: "",
