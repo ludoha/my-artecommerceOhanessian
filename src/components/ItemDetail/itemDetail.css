@@ -1,4 +1,6 @@
+
 .container__detail{
+    max-width: 1500px;
     display: flex;
     padding-left: 100px;
     padding-top: 20px;
@@ -7,17 +9,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media screen and (min-width:768px){
-    .container{
-        width: 70%;
-    }
-}
-
 .detail {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 0.5rem;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -26,7 +23,7 @@
     width: 40%;
     height: 450px;
     object-fit: contain;
-    margin-left: 14px;
+    margin-left: 13px;
 }
 .separacionPrice{
     border-bottom: 1px solid black;
@@ -56,29 +53,36 @@
     border: 5px, black, 3px;
     background-color:  rgba(250, 163, 163, 0.562);
 }
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 676px) {
     .container__detail{
-        display:inline-block;
-        padding-left: 32px;
+        max-width: 50px;
+        display: inline;
+        margin-right: 90px;
+        margin-left: 90px;
         margin-bottom: 14rem;
         padding-bottom: 0px;
-    }
-    .detail {
-        width: 330px;
-        padding: 0rem;
         font-size: 10px;
     }
-    .detail_image{
+    .detail {
         width: 100%;
-        height: 50vh;
         margin: 0px;
         padding: 0px;
     }
+    .detail_image{
+        object-fit: contain;
+        width: 100%;
+        height: 40vh;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
     .content{
-        max-width: 170px;
-        margin-left: 20px;
+        width: 100%px;
+        margin-left: 37px;
+        margin-top: 2px;
         line-height: 16px;
         font-size: 10px;
+        margin-bottom: 35px;
     }
     .content h1 {
         margin-top: 15px;
@@ -90,20 +94,25 @@
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 677px) and (max-width: 887px){
+    .container{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 15px;
+        margin-right: 1px;
+    }
     .detail_image{
-        width: 50%;
+        width: 80%;
+        margin-left: 55px;
+        margin-right: 95px;
     }
     .container {
-        padding-left: 3rem;
+        margin-left: 5rem;
         width: 50%;
+        margin-right: 55px;
+        margin-left: 55px;
     }
 }
-@media screen and (max-width:767px){
-    .detail_image{
-        width: 30%;
-    }
-    .content{
-        width: 30%;
-    }
-}
+
+

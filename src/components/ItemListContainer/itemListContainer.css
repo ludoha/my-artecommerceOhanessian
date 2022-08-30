@@ -52,3 +52,21 @@
 		transform: scale(1.1);
 	}
 }
+
+@media only screen and (min-width: 577px) and (max-width: 877px){
+    .containerPrueba{
+		max-width: 800px;
+		display: grid;
+		justify-content: center;
+		padding-left: 13rem;
+		text-align: center;
+	}
+    .productos {
+		width: 450px;
+		line-height: 20px;
+	}
+}
+@media only screen  and (min-width: 878px) and (max-width: 957px){
+	
+
+}
