@@ -113,7 +113,7 @@ cursor: pointer;
     }
     .imgCart{
         width: 98%;
-        height:auto;
+        height:fit-content;
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 10px;
