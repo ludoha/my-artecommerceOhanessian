@@ -7,7 +7,10 @@ const SobreMi = () => {
         <div className="sobreMi">
             <div className="sobre">
                 <h3>Soy Técnica Superior en Bellas Artes recibida en el año 2012 en la Facultad Nueva Escuela de Diseño y Comunicación. <br></br>
-                Desde muy chica me gusto el arte, realizar artesanías y manualidades. En estos años realice diferentes exposiciones colectivas. Durante el año 2013 comencé a realizar murales, fui convocada para pintar el mural de retrato del Dr. Pedro Cossio en el Hospital Rivadavia formando parte del proyecto "Ventanas de Buenos Aires" del cual se hizo un libro que estuvo a la venta en la tienda del museo Malba. Luego el mural de “Manuelita” en el Hospital de Niños Ricardo Gutiérrez y diversos murales en la ciudad. Mi último mural realizado fue en agosto del año 2018 cuando pinte sobre una persiana de un local el “Abasto”, ubicado en Castelli y Valentín Gómez en el barrio de Once. A demás en todo este tiempo realice diversas piezas artísticas, pinturas y dibujos por pedido.</h3> 
+                Desde muy chica me gusto el arte, realizar artesanías y manualidades. <br></br>
+                En estos años realice diferentes exposiciones colectivas. <br></br>
+                Durante el año 2013 comencé a realizar murales, fui convocada para pintar el mural de retrato del Dr. Pedro Cossio en el Hospital Rivadavia formando parte del proyecto "Ventanas de Buenos Aires" del cual se hizo un libro que estuvo a la venta en la tienda del museo Malba. Luego el mural de “Manuelita” en el Hospital de Niños Ricardo Gutiérrez y diversos murales en la ciudad. <br></br>
+                Mi último mural realizado fue en agosto del año 2018 cuando pinte sobre una persiana de un local el “Abasto”, ubicado en Castelli y Valentín Gómez en el barrio de Once. A demás en todo este tiempo realice diversas piezas artísticas, pinturas y dibujos por pedido.</h3> 
             </div>
                 <ul className="listaExpos">
                     <h3>Exposiciones Colectivas:</h3>
